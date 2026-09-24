@@ -1,0 +1,27 @@
+# Android Studio / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.externalNativeBuild/
+.cxx/
+
+# Java / Spring Boot
+target/
+*.class
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+*.jks
+*.keystore
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
